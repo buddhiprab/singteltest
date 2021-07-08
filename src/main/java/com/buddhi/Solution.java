@@ -12,5 +12,10 @@ public class Solution {
 
         Rooster rooster = new Rooster();
         rooster.sing();
+
+        Parrot parrot1 = new Parrot(new DogSound());
+        parrot1.sing();
+
+
     }
 }

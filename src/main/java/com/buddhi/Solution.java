@@ -25,5 +25,7 @@ public class Solution {
 
         Parrot parrot3 = new Parrot(new RoosterSound());
         parrot3.sing();
+
+        Shark shark = new Shark();
     }
 }

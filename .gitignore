@@ -1,5 +1,7 @@
 .idea
 .Ds_Store
+*.iml
+target
 # Compiled class file
 *.class
 

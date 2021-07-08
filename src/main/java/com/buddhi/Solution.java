@@ -10,5 +10,7 @@ public class Solution {
         duck.swim();
         duck.sing();
 
+        Rooster rooster = new Rooster();
+        rooster.sing();
     }
 }

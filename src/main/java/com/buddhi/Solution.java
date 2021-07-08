@@ -3,6 +3,7 @@ package com.buddhi;
 import com.buddhi.sounds.CatSound;
 import com.buddhi.sounds.DogSound;
 import com.buddhi.sounds.RoosterSound;
+import sun.jvm.hotspot.debugger.windbg.DLL;
 
 public class Solution {
     public static void main(String[] args) {
@@ -27,6 +28,11 @@ public class Solution {
         parrot3.sing();
 
         Shark shark = new Shark();
+        shark.eat();
         ClownFish clownFish = new ClownFish();
+        clownFish.makeJoke();
+
+        Dolphin dolphin = new Dolphin();
+        dolphin.swim();
     }
 }

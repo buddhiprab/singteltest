@@ -1,8 +1,6 @@
 package com.buddhi;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -21,12 +19,16 @@ class ChickenTest {
     @BeforeAll
     public static void init() {
         chicken = new Chicken();
+    }
+
+    @BeforeEach
+    public void initEach() {
         System.setOut(new PrintStream(outContent));
         System.setErr(new PrintStream(errContent));
     }
 
-    @AfterAll
-    public static void end() {
+    @AfterEach
+    public void endEach() {
         System.setOut(originalOut);
         System.setErr(originalErr);
     }
@@ -35,5 +37,11 @@ class ChickenTest {
     public void testSing() {
         chicken.sing();
         assertEquals("Cluck, cluck\n", outContent.toString());
+    }
+
+    @Test
+    public void testFly() {
+        chicken.fly();
+        assertEquals("", outContent.toString());
     }
 }

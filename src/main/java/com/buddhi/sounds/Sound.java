@@ -1,4 +1,4 @@
-package com.buddhi;
+package com.buddhi.sounds;
 
 public abstract class Sound {
     String sound;

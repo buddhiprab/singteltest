@@ -1,5 +1,7 @@
 package com.buddhi;
 
+import com.buddhi.sounds.Sound;
+
 public class Parrot implements Singable {
     private Sound sound;
 

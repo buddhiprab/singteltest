@@ -1,7 +1,7 @@
-package com.buddhi;
+package com.buddhi.sounds;
 
 public class DogSound extends Sound {
-    DogSound() {
+    public DogSound() {
         sound = "Woof, woof";
     }
 

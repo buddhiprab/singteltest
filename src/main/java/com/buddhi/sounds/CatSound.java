@@ -1,7 +1,7 @@
-package com.buddhi;
+package com.buddhi.sounds;
 
 public class CatSound extends Sound {
-    CatSound() {
+    public CatSound() {
         this.sound = "Me ow";
     }
     public String getSound() {

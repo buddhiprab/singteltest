@@ -16,4 +16,8 @@ public class ClownFish extends Fish {
     public void swim() {
         System.out.println("shark swimming");
     }
+
+    public void makeJoke() {
+        System.out.println("make joke");
+    }
 }

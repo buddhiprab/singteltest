@@ -27,5 +27,6 @@ public class Solution {
         parrot3.sing();
 
         Shark shark = new Shark();
+        ClownFish clownFish = new ClownFish();
     }
 }

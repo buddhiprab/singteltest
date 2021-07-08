@@ -1,5 +1,7 @@
 package com.buddhi;
 
 public interface Flyable {
-    void fly();
+    default void fly() {
+        System.out.println("default fly");
+    };
 }

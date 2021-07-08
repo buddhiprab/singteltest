@@ -1,5 +1,7 @@
 package com.buddhi;
 
 public interface Singable {
-    void sing();
+    default void sing() {
+        System.out.println("default sing");
+    };
 }

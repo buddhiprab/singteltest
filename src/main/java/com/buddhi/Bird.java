@@ -1,6 +1,6 @@
 package com.buddhi;
 
-class Bird implements Flyable, Singable {
+class Bird extends Animal implements Flyable, Singable {
     public void fly() {
         System.out.println("Bird flying");
     }

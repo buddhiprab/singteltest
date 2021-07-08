@@ -16,6 +16,7 @@ public class Solution {
         Parrot parrot1 = new Parrot(new DogSound());
         parrot1.sing();
 
-
+        Parrot parrot2 = new Parrot(new CatSound());
+        parrot2.sing();
     }
 }

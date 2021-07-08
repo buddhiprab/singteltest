@@ -1,10 +1,9 @@
 package com.buddhi;
 
-public class DogSound extends Sound {
-    DogSound() {
-        sound = "Woof, woof";
+public class CatSound extends Sound {
+    CatSound() {
+        this.sound = "Me ow";
     }
-
     public String getSound() {
         return sound;
     }

@@ -1,3 +1,5 @@
+package com.buddhi;
+
 class Bird extends Animal {
     void fly() {
         System.out.println("Bird flying");
